@@ -1,0 +1,405 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth ;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    border: solid white 2px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-image: url(../assets/img/flecha_subir.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 17px;
+}
+
+/* HEADER STYLE INICIO */
+header{
+    height: 60px;
+    background-color: rgb(139, 209, 147);
+    padding: 0px;
+    margin: 0px;
+}
+.marquesina{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-family: "FuturaStd-HeavyOblique";
+    font-size: 8.5px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 0px 20px 0px 20px;
+    
+}
+.marquesina img{
+    width: 10px;
+    line-height: 30px;
+}
+.navbar-brand{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 60px;
+    line-height: 60px;
+
+}
+.navbar-brand img{
+    width: 120px;
+    text-align: center;
+}
+
+.navbar{
+    color: black;
+    border-color: black;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav-link{
+    font-family: "FuturaStd-BoldOblique";
+    font-size: 10px;
+    line-height: 15PX;
+    color:  white;
+}
+
+
+.navbar-toggler{
+    margin-left: 10px;
+    width: 50px;
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+.navbar-toggler-icon{
+    width: 25px;
+    mix-blend-mode: multiply;
+
+}
+#collapsibleNavbar{
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+
+/* .lupa_carrito{
+    margin-right: -20px;
+    width: 55px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: brown;
+} */
+
+div.lupa_carrito img{
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    mix-blend-mode: multiply;
+    display: inline;
+}
+
+
+/* HEADER STYLE FINALIZA */
+
+/* MAIN STYLE INICIO */
+main{
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(216, 216, 216);
+}
+.jumbotron{
+    font-family: "FuturaStd-BoldOblique";
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(216, 216, 216);
+}
+
+a.botton_skew{
+    height: 30px;
+    width: 150px;
+    display: block;
+    transform: skewX(-9deg);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(139, 209, 147);
+}
+a.botton_skew p{
+    width: 150px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Montserrat-Italic";
+    transform: skewX(9deg);
+    font-size: 17px;
+    color: white;
+}
+
+h1{
+    width: 200px;
+    font-family: "FuturaStd-BoldOblique";
+    font-size: 35px;
+    position: relative;
+}
+/* MAIN STYLE FINALIZA */
+
+/* NUESTROS PRODUCTOS STYLE INICIA */
+
+.titulo_section1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 258px;
+    background-color: black;
+    transform: skewX(-9deg);
+
+}
+
+h2{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-family: "FuturaStd-BoldOblique";
+    font-size: 18px;
+    transform: skewX(9deg);
+}
+
+.card{
+    padding: 0px;
+    line-height: 30px;
+    height: 350px;
+    border-radius: 0px; 
+}
+.card-body{
+    height: 300px;
+    background-color: rgb(216, 216, 216);
+    background-image: url(../assets/img/icono_img.svg);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.card p{
+    margin-top: 17px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    font-family: "Montserrat-Medium";
+
+}
+
+/* NUESTROS PRODUCTOS STYLE FINALIZA */
+
+/*COMUNIDA BANNER STYLE INICIA */
+.comunidad{
+    margin-top: 30px;
+}
+/*COMUNIDA BANNER STYLE FINALIZA*/
+
+
+/*FOOTER STYLE INICIA */
+footer{
+    background-color: black;
+}
+
+.footer_adapt{
+
+    padding: 15px;
+}
+
+h5{
+    font-size: 15px;
+    font-family: "FuturaStd-HeavyOblique";
+    text-transform: uppercase;
+    color: rgb(139, 209, 147);
+}
+.caja_shipping{
+    border-bottom: 1px solid white;
+
+}
+.shipping {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipping a{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    /* background-color: rgb(139, 209, 147); */
+    ;
+}
+
+.shipping P{
+    margin-top: 10px;
+    color: white;
+    font-family: "Montserrat-Regular";
+    font-size: 11px;
+
+}
+.bajada img{
+    margin-top: 15px;
+    height: 45px;
+}
+
+.logo_footer{
+    border-bottom: 1px solid white;
+}
+.logo_footer img{
+    height: 65px;
+}
+
+.redes img{
+    height: 28px;
+}
+
+.redes{
+    border-bottom: 1px solid white;
+
+    text-align:left;
+    /* background-color: blue; */
+}
+
+
+.empresa_footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.empresa_footer p{
+    color: white;
+    font-family: "Montserrat-Regular";
+    font-size: 11px;
+}
+
+
+.contenido_footer a{
+    color: white;
+    font-family: "Montserrat-Medium";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.contenido_footer li{
+    list-style: none;
+}
+
+    
+.ayuda_footer li{
+    list-style: none;
+}
+
+.ayuda_footer a{
+    color: white;
+    font-family: "Montserrat-Medium";
+    font-size: 10px;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+/*FOOTER STYLE FINALIZA */
+
+/*COMUNIDAD PAGE STYLE INICIA*/
+
+.parrafo_encabezado{
+    max-width: 550px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Montserrat-Medium";
+    font-size: 15px;
+}
+
+.padre_section1 a{
+    text-decoration: none;
+}
+.notas{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+
+.bajada_nota h4{
+    margin-top: 10px;
+    text-align: left;
+    line-height: 25px;
+    color: black;
+    font-family: "FuturaStd-BoldOblique";
+    font-size: 19px;
+}
+
+
+.bajada_nota h4+p{
+    text-align: left;
+    /* line-height: 30px; */
+    color: rgb(131, 131, 131);
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+
+}
+.notas1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    background-image: url(../assets/img/icono_img.svg);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    
+}
+
+/*COMUNIDAD PAGE STYLE FINALIZA*/
+
+@media only screen and (min-width: 991px){
+    
+    .marquesina img{
+        width: 12px;
+    }
+    .marquesina{
+        font-size: 10px;
+    }
+    .navbar-nav{
+        margin-left: 25px;
+    }
+
+    .nav-link{
+        font-size: 12px;
+    }
+
+    .logo_footer{
+        border-bottom: none;
+    }
+    .redes{
+        border-bottom: none;
+    }
+    .empresa_footer{
+        border-bottom: none;
+    }
+}
